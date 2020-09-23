@@ -7,12 +7,17 @@ const routes = [
     { 
         path: '/monster_slayer', 
         name: 'Monster Slayer',
-        component: () => import('./components/monster_slayer/App.vue')
+        component: () => import('./views/monster_slayer/App.vue')
     },
     { 
         path: '/server_components', 
         name: 'Server Components',
-        component: () => import('./components/server_components/src/App.vue')
+        component: () => import('./views/server_components/src/App.vue')
+    },
+    { 
+        path: '/quotes', 
+        name: 'Quotes',
+        component: () => import('./views/quotes/src/App.vue')
     }
   ]
 

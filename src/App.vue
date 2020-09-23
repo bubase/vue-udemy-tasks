@@ -2,8 +2,9 @@
 <div id="app" class="app">
   <div class="nav">
     <ul>
-        <li><router-link to="/monster_slayer">Мини-игра Monster slayer</router-link><a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/5941784#content">(cсылка на раздел курса)</a></li>
-        <li><router-link to="/server_components">Vue-components</router-link><a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/practice/72/introduction#content">(cсылка на раздел курса)</a></li>
+      <li><router-link to="/monster_slayer">Мини-игра Monster slayer</router-link><a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/5941784#content">(cсылка на раздел курса)</a></li>
+      <li><router-link to="/server_components">Vue-components</router-link><a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/practice/72/introduction#content">(cсылка на раздел курса)</a></li>
+      <li><router-link to="/quotes">Quotes</router-link><a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/5975198#content">(cсылка на раздел курса)</a></li>
     </ul>
   </div>
   <div class="views">
@@ -14,11 +15,6 @@
 </template>
 
 <style scoped>
-html, body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #2c3e50;
-}
-
 .nav {
   width: 20%;
   border-right: solid 1px #4fc08d;
